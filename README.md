@@ -1,2 +1,2 @@
 # bertoti
-repositorio para um dos meus professores da faculdade.
+Repositório para um professor da fatec.
