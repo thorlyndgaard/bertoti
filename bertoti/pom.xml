@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>thoor</groupId>
-	<artifactId>bertoti</artifactId>
+	<artifactId>crudWeb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bertoti</name>
 	<description>Demo project for Spring Boot</description>

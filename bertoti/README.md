@@ -24,4 +24,4 @@ Certifique-se de ter instalado em sua máquina:
 No terminal, dentro da pasta do back-end, execute:
 
 ```bash
-mvn spring-boot:run
+./mvnw clean spring-boot:run 
