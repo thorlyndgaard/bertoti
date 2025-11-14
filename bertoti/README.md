@@ -25,3 +25,10 @@ No terminal, dentro da pasta do back-end, execute:
 
 ```bash
 ./mvnw clean spring-boot:run 
+```
+
+### 2. Rodando o front (React)
+
+No terminal, dentro da pasta front execute
+
+npm start
