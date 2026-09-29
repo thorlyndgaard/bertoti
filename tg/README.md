@@ -83,3 +83,60 @@ Documentação Técnica com Swagger: Estruturação da documentação OpenAPI, f
 - Comunicação Assertiva: Alinhamento técnico entre o back-end e as necessidades de interface do usuário.
 
 - Proatividade e Responsabilidade: Iniciativa na resolução de bugs e compromisso com os prazos das sprints.
+
+---
+
+# Relatório do Projeto – API (4º Semestre)
+
+- **Projeto:** Tracker
+- **Equipe:** Caramel Stray
+- **Período:** 2026/1
+- **Repositório do projeto:** [CaramelStray-Api-4Semestre](https://github.com/CaramelStray/CaramelStray-Api-4Semestre)
+
+## 1. Introdução
+
+O Tracker é um sistema de gestão de manutenções desenvolvido para a ALTAVE durante a API do 4º semestre de Banco de Dados da Fatec São José dos Campos. A plataforma reúne informações de clientes, contratos, sistemas instalados, ativos, técnicos e ordens de serviço para apoiar o planejamento e o acompanhamento das manutenções.
+
+## 2. Contexto do cliente e desafio
+
+A ALTAVE opera sistemas distribuídos em diferentes localidades, com necessidades de manutenção que variam conforme o uso dos equipamentos e a distância até o cliente. Nesse cenário, organizar atendimentos, deslocamentos e prazos contratuais exige uma visão integrada da operação.
+
+O desafio do projeto foi centralizar essas informações e facilitar o acompanhamento das ordens de manutenção, da disponibilidade dos técnicos e do histórico de intervenções.
+
+## 3. Solução desenvolvida
+
+O Tracker permite cadastrar clientes, contratos, sistemas, máquinas, ativos e técnicos; criar e acompanhar ordens de serviço; planejar viagens; registrar checklists e consultar o histórico de manutenção. A aplicação também oferece calendário, mapa e painel de indicadores para apoiar a equipe na organização dos atendimentos.
+
+O back-end expõe uma API REST utilizada pela interface web. Sua estrutura separa controladores, regras de negócio, objetos de transferência de dados (DTOs) e acesso ao banco de dados.
+
+## 4. Tecnologias utilizadas
+
+| Camada | Tecnologias |
+|---|---|
+| Back-end | Java 17, Spring Boot 3.3.5, Spring Data JPA, Hibernate e Maven |
+| Autenticação e validação | Spring Security, JWT e Bean Validation |
+| Banco de dados | PostgreSQL e PostGIS |
+| Front-end | Vue 3, TypeScript e Vite |
+| Ambiente e versionamento | Docker Compose, Git e GitHub |
+
+## 5. Contribuições pessoais
+
+Atuei principalmente no desenvolvimento do **back-end**, implementando uma parte significativa dos endpoints da API REST que conectam as funcionalidades do sistema à interface web. Esse trabalho envolveu a construção de rotas e a integração entre controladores, serviços, DTOs e persistência de dados.
+
+Também colaborei para a **qualidade e a padronização do código**, ajudando a manter convenções consistentes entre os módulos e a organizar as implementações para facilitar a leitura, a integração e a manutenção do projeto.
+
+## 6. Aprendizados
+
+### Hard skills
+
+- Desenvolvimento de APIs REST com Java e Spring Boot, incluindo operações de cadastro, consulta, atualização e exclusão.
+- Organização do back-end em camadas e uso de DTOs para a comunicação entre a API e o front-end.
+- Persistência de dados relacionais com Spring Data JPA, Hibernate e PostgreSQL.
+- Aplicação de validações e tratamento de respostas e erros nas rotas da API.
+- Colaboração em um projeto que utiliza autenticação com Spring Security e JWT.
+
+### Soft skills
+
+- Comunicação com a equipe para alinhar contratos de API e necessidades da interface.
+- Atenção à consistência do código desenvolvido em conjunto.
+- Organização das entregas ao longo das sprints e adaptação às demandas do projeto.
