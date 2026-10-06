@@ -1,117 +1,178 @@
-# Relatório do Projeto – API (3° Semestre)
+# Portfólio de Projetos API — Fatec São José dos Campos
 
-## 1.0       Introdução
+## 1º semestre — Calculadora em Portugol
 
-O DataSkill funciona como o mapa de talentos oficial da companhia. Ele permite que cada profissional registre sua trajetória, competências e certificações, criando uma vitrine interna de potencialidades.
+### Introdução
 
- O objetivo é conectar as habilidades certas às oportunidades ideais, facilitando a mobilidade interna e garantindo que o conhecimento de cada colaborador seja visível e aproveitado em iniciativas estratégicas da organização.
+A calculadora em Portugol, desenvolvida no VisuAlg, integrou as atividades introdutórias de programação do primeiro semestre. O projeto proporcionou a aplicação prática de conceitos de lógica e construção de algoritmos.
 
- ---
+### Contexto
 
- ## 2.1 Contexto do Cliente
+O projeto foi realizado no primeiro semestre da Fatec São José dos Campos. As atividades também introduziram práticas de Scrum, trabalho em equipe e documentação de projetos.
 
- **Nome**
-  ALTAVE
+### Necessidade
 
-  **Atuação**
-  Tecnologia e Defesa — especializada no desenvolvimento e fornecimento de aeróstatos (balões cativos de alta tecnologia) para monitoramento, vigilância aérea e telecomunicações. A empresa atua em projetos estratégicos voltados para segurança pública, defesa, grandes eventos e proteção de infraestruturas críticas.
-  
+O desafio consistiu em aplicar fundamentos de lógica de programação em uma solução funcional, organizando as atividades da equipe e registrando o desenvolvimento do projeto.
 
-##  2.2 Necessidade Identificada
-A ausência de um mapeamento estruturado de competências gerava lacunas na gestão estratégica de talentos, caracterizadas por:
+### Solução
 
-- Fragmentação de Dados: Informações sobre qualificações dispersas em arquivos isolados ou desatualizados.
+Foi desenvolvida uma calculadora em Portugol, com a lógica da aplicação implementada e executada no VisuAlg. O trabalho permitiu exercitar a elaboração de algoritmos e a condução organizada de um projeto de software.
 
-- Alocação Ineficiente: Dificuldade técnica em identificar o perfil exato para a demanda de cada projeto.
+### Tecnologias e ferramentas
 
-- Subjetividade na Gestão: Dependência do conhecimento informal dos gestores para localizar talentos.
-
-- Invisibilidade de Especialistas: Perda de agilidade estratégica por desconhecimento das capacidades internas.
-
-- Capacitação Genérica: Baixa eficácia no planejamento de treinamentos por falta de diagnósticos reais de lacunas (gaps) de competência
-
-## 2.3 Solução Estratégica
-A solução consiste em um ecossistema digital centralizado para a governança de capital humano, focado em transformar informações em inteligência operacional:
-
-- Repositório Unificado: Consolidação de Hard Skills, Soft Skills e certificações em uma base de dados estruturada.
-
-- Mecanismo de Busca de Especialistas: Filtros técnicos avançados para localização imediata de profissionais por competência específica.
-
-- Dashboards de Gap Analysis: Visão gerencial sobre a distribuição de habilidades e identificação de necessidades de treinamento.
-
--   Alocação Baseada em Dados: Redução da subjetividade e do conhecimento informal na montagem de squads e projetos.
-
-## 2.4 Tecnologias Utilizadas
- 
-| Categoria | Tecnologias |
+| Categoria | Tecnologia ou prática |
 |---|---|
-| **Back-end** | Java 21 · Spring Boot · JPA / Hibernate · Maven |
-| **Front-end** | Angular |
-| **Banco de Dados** | MySQL 8 |
-| **Documentação de API** | Swagger (OpenAPI) |
-| **Testes** | Postman |
-| **Controle de Versão** | Git · GitHub |
-| **IDEs** | IntelliJ IDEA · VS Code |
+| Linguagem | Portugol |
+| Ambiente de desenvolvimento | VisuAlg |
+| Organização do trabalho | Scrum e documentação do projeto |
 
-## 3.0 Contribuições Pessoais
-Atuação concentrada na construção da inteligência da plataforma (Back-end) e na garantia de uma comunicação eficiente e persistente entre os módulos:
+### Contribuições pessoais
 
-Desenvolvimento de APIs RESTful: Modelagem completa de rotas, DTOs e padronização de respostas para integração com o Front-end.
+Atuei na implementação da calculadora e participei da organização das atividades e da documentação do projeto.
 
-Feature de Funcionario: Criação dos serviços para registro, processamento e armazenamento do perfil de funcionário.
+### Hard skills
 
-Regras de Negócio e Persistência: Implementação da lógica de validação de dados utilizando Spring Data JPA e Hibernate.
+- Aplicação de lógica de programação e construção de algoritmos em Portugol.
+- Desenvolvimento e execução de programas no VisuAlg.
+- Elaboração de documentação básica do projeto.
 
-Documentação Técnica com Swagger: Estruturação da documentação OpenAPI, facilitando o consumo dos endpoints e a manutenção do sistema.
+### Soft skills
 
-## 4.0 Hard Skills Adquiridas
-- Ecossistema Java & Spring Boot: Domínio na estruturação de aplicações em camadas (Controller, Service, Repository) utilizando Java 21.
+- Colaboração e comunicação com a equipe durante o desenvolvimento.
+- Organização das atividades com práticas de Scrum.
+- Adaptação a um ambiente de desenvolvimento de projetos.
 
-- Desenvolvimento REST: Proficiência em verbos HTTP, códigos de status e princípios de arquitetura para APIs modernas.
+### Repositório
 
-- Persistência de Dados: Mapeamento objeto-relacional (ORM) e manipulação de bancos de dados relacionais com MySQL.
-
-- Testes e Documentação: Validação de fluxos complexos via Postman e automação de documentação com Swagger.
-
-- Controle de Versão: Gestão de código em equipe utilizando Git, com foco em boas práticas de commit e organização de branches.
-
-## 4.1 Soft Skills Desenvolvidas
-- Metodologia Ágil (Scrum): Vivência prática em ambiente colaborativo, participando de ritos de planejamento e entregas incrementais.
-
-- Pensamento Analítico: Tradução de desafios de negócio em requisitos técnicos e modelagem de dados estruturada.
-
-- Comunicação Assertiva: Alinhamento técnico entre o back-end e as necessidades de interface do usuário.
-
-- Proatividade e Responsabilidade: Iniciativa na resolução de bugs e compromisso com os prazos das sprints.
+**Link:** [adicionar link do repositório]
 
 ---
 
-# Relatório do Projeto – API (4º Semestre)
+## 2º semestre — DataGrade
 
-- **Projeto:** Tracker
-- **Equipe:** Caramel Stray
-- **Período:** 2026/1
-- **Repositório do projeto:** [CaramelStray-Api-4Semestre](https://github.com/CaramelStray/CaramelStray-Api-4Semestre)
+### Introdução
 
-## 1. Introdução
+O DataGrade é um sistema de apoio à organização da grade horária da Fatec São José dos Campos. A aplicação reúne informações sobre cursos, disciplinas, professores e horários.
 
-O Tracker é um sistema de gestão de manutenções desenvolvido para a ALTAVE durante a API do 4º semestre de Banco de Dados da Fatec São José dos Campos. A plataforma reúne informações de clientes, contratos, sistemas instalados, ativos, técnicos e ordens de serviço para apoiar o planejamento e o acompanhamento das manutenções.
+### Contexto
 
-## 2. Contexto do cliente e desafio
+Desenvolvido pela equipe DataTech no segundo semestre, o projeto abordou a gestão de informações acadêmicas necessárias à composição da grade, incluindo disponibilidade de professores e possíveis conflitos de alocação.
 
-A ALTAVE opera sistemas distribuídos em diferentes localidades, com necessidades de manutenção que variam conforme o uso dos equipamentos e a distância até o cliente. Nesse cenário, organizar atendimentos, deslocamentos e prazos contratuais exige uma visão integrada da operação.
+### Necessidade
 
-O desafio do projeto foi centralizar essas informações e facilitar o acompanhamento das ordens de manutenção, da disponibilidade dos técnicos e do histórico de intervenções.
+Havia necessidade de centralizar e manter consistentes os dados da grade horária, de modo a apoiar a distribuição de disciplinas e horários e facilitar a atualização das informações.
 
-## 3. Solução desenvolvida
+### Solução
 
-O Tracker permite cadastrar clientes, contratos, sistemas, máquinas, ativos e técnicos; criar e acompanhar ordens de serviço; planejar viagens; registrar checklists e consultar o histórico de manutenção. A aplicação também oferece calendário, mapa e painel de indicadores para apoiar a equipe na organização dos atendimentos.
+A equipe desenvolveu uma aplicação para centralizar as informações da grade horária e apoiar sua organização. A solução contou com um banco de dados modelado para armazenar essas informações e permitir sua manutenção por meio de SQL.
 
-O back-end expõe uma API REST utilizada pela interface web. Sua estrutura separa controladores, regras de negócio, objetos de transferência de dados (DTOs) e acesso ao banco de dados.
+### Tecnologias e ferramentas
 
-## 4. Tecnologias utilizadas
+| Categoria | Tecnologia |
+|---|---|
+| Aplicação | Java |
+| Banco de dados | MySQL e SQL |
+| Interface | SceneBuilder |
 
-| Camada | Tecnologias |
+### Contribuições pessoais
+
+Realizei a modelagem do banco de dados e sua manutenção manual por meio de SQL, incluindo consultas, inserções e atualizações dos dados da grade horária. Durante o projeto, também desenvolvi conhecimentos iniciais sobre classes em Java e a estrutura de aplicações com Spring Boot.
+
+### Hard skills
+
+- Modelagem de banco de dados relacional para representar as informações da grade horária.
+- Elaboração de consultas e comandos SQL para inserção e atualização de dados.
+- Organização e verificação da consistência das informações armazenadas.
+- Conhecimentos iniciais de Java, classes e estrutura de aplicações.
+
+### Soft skills
+
+- Atenção à precisão e à consistência dos dados utilizados pela equipe.
+- Comunicação com os demais integrantes para compreender as necessidades da aplicação.
+- Organização na manutenção das informações compartilhadas.
+
+### Repositório
+
+**Link:** [OrganizadorHorarios](https://github.com/DataTechApi/OrganizadorHorarios)
+
+---
+
+## 3º semestre — DataSkill
+
+### Introdução
+
+O DataSkill é uma plataforma de mapeamento de talentos desenvolvida para a ALTAVE. A aplicação permite registrar trajetórias profissionais, competências e certificações, ampliando a visibilidade das capacidades disponíveis na empresa.
+
+### Contexto
+
+A ALTAVE atua nos setores de tecnologia e defesa, com soluções de monitoramento, vigilância aérea e telecomunicações. O conhecimento das competências dos colaboradores é relevante para a formação de equipes e o planejamento do desenvolvimento profissional.
+
+### Necessidade
+
+A dispersão e a desatualização das informações sobre qualificações dificultavam a identificação de especialistas, o mapeamento de lacunas de competências e o direcionamento de profissionais e treinamentos às demandas dos projetos.
+
+### Solução
+
+Foi desenvolvida uma plataforma centralizada para registrar competências técnicas, competências comportamentais e certificações. A solução oferece busca de profissionais por competência e painéis de visualização para apoiar decisões de alocação e capacitação.
+
+### Tecnologias e ferramentas
+
+| Categoria | Tecnologias |
+|---|---|
+| Back-end | Java 21, Spring Boot, JPA, Hibernate e Maven |
+| Front-end | Angular |
+| Banco de dados | MySQL 8 |
+| Documentação da API | Swagger e OpenAPI |
+| Testes | Postman |
+| Versionamento | Git e GitHub |
+| Ambiente de desenvolvimento | IntelliJ IDEA e VS Code |
+
+### Contribuições pessoais
+
+Atuei principalmente no back-end, desenvolvendo endpoints, DTOs e respostas da API para integração com o front-end. Implementei serviços de registro e armazenamento de perfis de funcionários, validações e persistência de dados com Spring Data JPA e Hibernate. Também contribuí para a documentação da API com Swagger.
+
+### Hard skills
+
+- Organização de aplicações Java e Spring Boot em camadas de controle, serviço e persistência.
+- Desenvolvimento de APIs REST com utilização de métodos HTTP e códigos de status.
+- Persistência de dados relacionais com JPA, Hibernate e MySQL.
+- Validação de fluxos com Postman e documentação de endpoints com Swagger.
+- Versionamento de código com Git e GitHub em ambiente colaborativo.
+
+### Soft skills
+
+- Participação no planejamento e nas entregas incrementais com Scrum.
+- Análise de necessidades do negócio e tradução em requisitos técnicos.
+- Comunicação com a equipe para alinhar a integração entre back-end e front-end.
+- Proatividade na resolução de problemas e compromisso com as entregas.
+
+### Repositório
+
+**Link:** [DataSkill](https://github.com/DataTechApi/DataSkill)
+
+---
+
+## 4º semestre — Tracker
+
+### Introdução
+
+O Tracker é um sistema de gestão de manutenções desenvolvido para a ALTAVE no quarto semestre do curso de Banco de Dados da Fatec São José dos Campos. A plataforma apoia o planejamento e o acompanhamento dos atendimentos de manutenção.
+
+### Contexto
+
+A ALTAVE opera sistemas instalados em diferentes localidades. Os atendimentos envolvem clientes, contratos, equipamentos, técnicos, deslocamentos e prazos contratuais. O projeto foi desenvolvido pela equipe Caramel Stray no primeiro semestre de 2026.
+
+### Necessidade
+
+Havia necessidade de integrar as informações operacionais e acompanhar ordens de serviço, disponibilidade dos técnicos e histórico de intervenções em um único sistema.
+
+### Solução
+
+O Tracker centraliza o cadastro de clientes, contratos, sistemas, máquinas, ativos e técnicos. A plataforma permite gerenciar ordens de serviço, planejar viagens, registrar checklists e consultar o histórico de manutenção. Também disponibiliza calendário, mapa e painel de indicadores, com uma API REST para integração entre o back-end e a interface web.
+
+### Tecnologias e ferramentas
+
+| Categoria | Tecnologias |
 |---|---|
 | Back-end | Java 17, Spring Boot 3.3.5, Spring Data JPA, Hibernate e Maven |
 | Autenticação e validação | Spring Security, JWT e Bean Validation |
@@ -119,24 +180,27 @@ O back-end expõe uma API REST utilizada pela interface web. Sua estrutura separ
 | Front-end | Vue 3, TypeScript e Vite |
 | Ambiente e versionamento | Docker Compose, Git e GitHub |
 
-## 5. Contribuições pessoais
+### Contribuições pessoais
 
-Atuei principalmente no desenvolvimento do **back-end**, implementando uma parte significativa dos endpoints da API REST que conectam as funcionalidades do sistema à interface web. Esse trabalho envolveu a construção de rotas e a integração entre controladores, serviços, DTOs e persistência de dados.
+Atuei principalmente no desenvolvimento do back-end com Java e Spring Boot. Implementei endpoints para viagens, checklists de manutenção de máquinas e consultas por status, trabalhando nas camadas de controle, serviço e persistência, além da definição de DTOs.
 
-Também colaborei para a **qualidade e a padronização do código**, ajudando a manter convenções consistentes entre os módulos e a organizar as implementações para facilitar a leitura, a integração e a manutenção do projeto.
-
-## 6. Aprendizados
+Também realizei ajustes no dashboard e implementei um filtro de status dos técnicos no mapa. Na colaboração com a equipe, atuei como elo de comunicação entre os integrantes, esclarecendo necessidades e alinhando decisões para manter um entendimento compartilhado sobre o projeto.
 
 ### Hard skills
 
-- Desenvolvimento de APIs REST com Java e Spring Boot, incluindo operações de cadastro, consulta, atualização e exclusão.
-- Organização do back-end em camadas e uso de DTOs para a comunicação entre a API e o front-end.
+- Desenvolvimento de endpoints REST com Java e Spring Boot.
+- Organização do back-end em camadas e utilização de DTOs na integração com o front-end.
 - Persistência de dados relacionais com Spring Data JPA, Hibernate e PostgreSQL.
-- Aplicação de validações e tratamento de respostas e erros nas rotas da API.
-- Colaboração em um projeto que utiliza autenticação com Spring Security e JWT.
+- Implementação de validações e tratamento de respostas e erros da API.
+- Manutenção de componentes da interface com Vue 3 e TypeScript.
 
 ### Soft skills
 
-- Comunicação com a equipe para alinhar contratos de API e necessidades da interface.
-- Atenção à consistência do código desenvolvido em conjunto.
-- Organização das entregas ao longo das sprints e adaptação às demandas do projeto.
+- Comunicação entre integrantes da equipe para alinhar necessidades e decisões técnicas.
+- Mediação do entendimento entre pessoas com diferentes responsabilidades no projeto.
+- Proatividade na identificação de demandas e na condução de entregas.
+- Organização das atividades ao longo das sprints e adaptação às prioridades da equipe.
+
+### Repositório
+
+**Link:** [CaramelStray-Api-4Semestre](https://github.com/CaramelStray/CaramelStray-Api-4Semestre)
